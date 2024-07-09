@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">MyLogo</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="toggle-theme">Day/Night</button>
+    </header>
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p><br></p>
+        <img src="profile.jpg" alt="Profile Image" class="profile-img">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100019191437791&mibextid=ZbWKwL">Facebook</a>
+            <a href="https://www.linkedin.com/in/balwant-patra-a86587232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi,my name is Balwant kumar patra currently pursuing my btech from srmist chennai. <br>I am a coding enthasuist currently doing full stack webdevelopement course from internshala.</p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress">
+                <div class="progress-bar" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress">
+                <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+        </div>
+    </section>
+    <section id="certifications">
+        <h2>Certifications </h2>
+        <div class="card">
+            <h3>Certification 1 <a href="https://ibb.co/8MBMwmM"</h3>
+            <p>Details about the certification.</p>
+            <button class="btn-cert">View Certificate</button>
+        </div>
+        <div class="card">
+            <h3>Certification 2 <a href="https://ibb.co/YcJckhT"</h3>
+            <p>Details about the certification.</p>
+            <button class="btn-cert">View Certificate</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</html>
